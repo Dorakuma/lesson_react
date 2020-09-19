@@ -3,9 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  function clickAlert() {
+    alert('unt!');
+  }
   return (
-    <h1>Hello World</h1>
+    <button onClick={()=>{clickAlert()}}>ほたん</button>
   );
 }
+
 
 export default App;
